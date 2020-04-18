@@ -1,0 +1,28 @@
+{
+  "name": "waterline-mongo-objectid-comparison-funk",
+  "version": "0.0.0",
+  "description": "A small Sails application demonstrating potential funk regarding Waterline comparison operators not normalising appropriate inputs to Mongo ObjectId instances.",
+  "keywords": [],
+  "dependencies": {
+    "sails": "1.2.3",
+    "sails-hook-orm": "2.1.1",
+    "sails-mongo": "1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "5.16.0"
+  },
+  "scripts": {
+    "start": "node queryTest",
+    "lint": "./node_modules/eslint/bin/eslint.js . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'"
+  },
+  "main": "queryTest.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Rua-Yuki/waterline-mongo-objectid-comparison-funk.git"
+  },
+  "author": "Yuki von Kanel",
+  "license": "ISC",
+  "engines": {
+    "node": "^8.17"
+  }
+}
